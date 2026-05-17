@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "task-cli"
+version = "1.0.0"
+description = "Учебный CLI-менеджер задач"
+
+[project.scripts]
+task-cli = "src.cli:main"
